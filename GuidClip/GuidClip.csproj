@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	  <PublishAot>true</PublishAot>
+	  <InvariantGlobalization>true</InvariantGlobalization>
+	  <IlcGenerateStackTraceData>false</IlcGenerateStackTraceData>
+	  <IlcDisableReflection>true</IlcDisableReflection>
+	  <IlcOptimizationPreference>Size</IlcOptimizationPreference>
+	  <IlcFoldIdenticalMethodBodies>true</IlcFoldIdenticalMethodBodies>
+	  <IlcTrimMetadata>true</IlcTrimMetadata>
+	  <IlcInvariantGlobalization>true</IlcInvariantGlobalization>
+	  <IlcGenerateCompleteTypeMetadata>false</IlcGenerateCompleteTypeMetadata>
+	  <GenerateRuntimeConfigurationFiles>false</GenerateRuntimeConfigurationFiles>
+	  <DebugType>none</DebugType>
+	  <DebuggerSupport>false</DebuggerSupport>
+	  <EnableUnsafeBinaryFormatterSerialization>false</EnableUnsafeBinaryFormatterSerialization>
+	  <EnableUnsafeUTF7Encoding>false</EnableUnsafeUTF7Encoding>
+	  <EventSourceSupport>false</EventSourceSupport>
+	  <HttpActivityPropagationSupport>false</HttpActivityPropagationSupport>
+	  <UseSystemResourceKeys>true</UseSystemResourceKeys>
+	  <IlcGenerateMapFile>false</IlcGenerateMapFile>
+	  <IlcGenerateMetadataLog>false</IlcGenerateMetadataLog>
+	  <IlcGenerateDgmlFile>false</IlcGenerateDgmlFile>
+  </PropertyGroup>
+
+</Project>
