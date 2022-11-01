@@ -7,7 +7,7 @@ const int CF_UNICODETEXT = 0x0D;
 
 unsafe
 {
-    var buffer = (byte*)NativeMemory.Alloc(32 * 2 + 2);
+    var buffer = (byte*)NativeMemory.Alloc(36 * 2 + 2);
 
     var bytesWritten = Encoding.Unicode.GetBytes(
         chars: Guid.NewGuid().ToString(),
